@@ -1,0 +1,97 @@
+/*  
+ filename: layout.css  
+ author: Ngoi Ye Sheng  
+ created: 10/9/2025  
+ last modified: 10/9/2025  
+ description: lab05.html  
+*/  
+
+/* Step 2: remove Lab04 hover effect */
+aside:hover {
+    display: block;
+}
+
+/* Step 2: menu items inline */
+.menu {
+    display: inline-block;
+}
+
+/* Step 3: aside box model */
+aside {
+    border: 2px solid purple;
+    margin: 1em;
+    padding: 1em;
+    background: url("styles/images/fade.jpg") repeat-x;
+    width: 30%;
+    float: right;
+    box-shadow: 10px 10px 5px #aaaaaa;
+}
+
+/* Step 3: header styling */
+header {
+    border: 1px solid darkgray;
+    margin: 0.5em;
+    padding: 0.5em;
+    background-color: lightgray;
+    text-align: center;
+}
+
+/* Step 3: footer styling */
+footer {
+    border-top: 4px double purple;
+    clear: both;
+}
+
+/* Step 4: float layout */
+#lists {
+    float: left;
+}
+
+#tables {
+    float: right;
+    margin: auto;
+}
+
+/* Step 4: clear hyperlinks */
+#hyperlinks {
+    clear: both;
+}
+
+/* Step 4: images section floated right */
+#images {
+    float: right;
+}
+
+figure {
+    border: 2px solid #ccc;
+}
+
+/* Step 4: fix alignment of lists */
+ol, ul, dl {
+    text-align: left;
+}
+
+/* Step 4: minimum width */
+article {
+    min-width: 30em;
+}
+
+/* Step 5: footer paragraphs inline */
+footer p {
+    display: inline-block;
+    width: 33%;
+}
+
+footer p:first-child {
+    float: left;
+}
+
+footer p:nth-child(2) {
+    text-align: center;
+}
+
+footer p:last-child {
+    float: right;
+    text-align: right;
+}
+
